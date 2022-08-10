@@ -26,60 +26,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
-//		File arquivo = new File("/home/fesoalll/Documentos/0.java/JAVADEV/dados/at15.xls");
-//
-//		DaoCliente daocliente = new DaoCliente();
-//		if(!arquivo.exists()) {
-//			System.out.println("Arquivo não existe");
-//			//arquivo.createNewFile();
-//		}else {
-//			System.out.println("Arquivo existe");
-//		}
-		/*
-		 * FileWriter escreve_arquivo = new FileWriter(arquivo);
-		 * 
-		 * //******************************************************** Pessoas pessoa1 =
-		 * new Pessoas(); pessoa1.setNome("fesoalll"); pessoa1.setSobrenome("fradeto");
-		 * pessoa1.setEmail("fesoalll9@hotmail.com");
-		 * 
-		 * Pessoas pessoa2 = new Pessoas(); pessoa2.setNome("jacck");
-		 * pessoa2.setSobrenome("spehow"); pessoa2.setEmail("jamenba@hotmail.com");
-		 * 
-		 * Pessoas pessoa3 = new Pessoas(); pessoa3.setNome("Mc");
-		 * pessoa3.setSobrenome("spock"); pessoa3.setEmail("fesoalll3@hotmail.com");
-		 * 
-		 * List<Pessoas> pessoas = new ArrayList<Pessoas>();
-		 * 
-		 * pessoas.add(pessoa1); pessoas.add(pessoa2); pessoas.add(pessoa3);
-		 * 
-		 * HSSFWorkbook workbook = new HSSFWorkbook(); HSSFSheet sheet =
-		 * workbook.createSheet("Planilha de treinamento JDev treinamento");
-		 * 
-		 * int numeroLinha = 0;
-		 * 
-		 * for(Pessoas p: pessoas ) {
-		 * 
-		 * 
-		 * Row linha = sheet.createRow(numeroLinha++); int celula = 0;
-		 * 
-		 * Cell cellNome = linha.createCell(celula++);
-		 * cellNome.setCellValue(p.getNome());
-		 * 
-		 * Cell cellSobrenome = linha.createCell(celula++);
-		 * cellSobrenome.setCellValue(p.getSobrenome());
-		 * 
-		 * Cell cellEmail = linha.createCell(celula++);
-		 * cellEmail.setCellValue(p.getEmail());
-		 * 
-		 * 
-		 * 
-		 * }
-		 * 
-		 * FileOutputStream saida = new FileOutputStream(arquivo);
-		 * workbook.write(saida);
-		 * 
-		 * escreve_arquivo.flush(); escreve_arquivo.close();
-		 */
+
 		List<String> files = new ArrayList<String>();
 		String file;
 		
